@@ -38,7 +38,8 @@ select, input {
 }
 
 .input-default {
-	background: var(--main-backgroundHover);
+	background: var(--main-background);
+	opacity: 0.5;
 	height: 50px;
 	border: 1px solid var(--main-placeholder);
 	color: var(--main-title);
@@ -49,13 +50,17 @@ select, input {
 }
 
 .input-submit {
-	background: var(--main-primary);
+	background: var(--main-secondary);
+	border: 1px solid var(--main-primary);
 	color: var(--main-textColorPrimary);
 	height: 50px;
 	border-radius: 5px;
 	margin-bottom: 8px;
 	padding: 8px;
 	font-size: 1.6rem;
+	font-weight: bold;
+
+
 }
 
 #logo-container {

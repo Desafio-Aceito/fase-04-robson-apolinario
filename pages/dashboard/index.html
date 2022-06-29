@@ -10,64 +10,62 @@
 		<link rel="stylesheet" href="../../styles/header/index.css" />
 		<link rel="stylesheet" href="../../styles/dashboard/index.css" />
 		<link rel="stylesheet" href="../../styles/card/index.css" />
-		<title>Dashboard</title>
+		<title>Home</title>
 	</head>
 	<body>
 		<header id="main-header">
 			<div id="content-header">
 				<i data-feather="menu"></i>
-				<h1>Olá, fulano</h1>
+				<h1>Olá, Nelson!</h1>
 				<i data-feather="user"></i>
 			</div>
 		</header>
 
 		<div id="dashboard">
-			<div id="card-list">
-				<div class="card-item">
-					<div class="card-item-row">
-						<h1>Entradas</h1>
-						<i data-feather="arrow-up-circle"></i>
-					</div>
-					<div class="card-item-column">
-						<strong>R$ 17.000</strong>
-						<span>Último lançamento em 28/06/2022</span>
-					</div>
-				</div>
-				<div class="card-item">
-					<div class="card-item-row">
-						<h1>Saídas</h1>
-						<i data-feather="arrow-down-circle"></i>
-					</div>
-					<div class="card-item-column">
-						<strong>R$ 1.000</strong>
-						<span>Último lançamento em 27/06/2022</span>
-					</div>
-				</div>
-				<div class="card-item" id="total-balance">
-					<div class="card-item-row">
-						<h1>Total</h1>
-						<i data-feather="dollar-sign"></i>
-					</div>
-					<div class="card-item-column">
-						<strong>R$ 16.000</strong>
-						<span>de 01 á 30 de Junho</span>
-					</div>
-				</div>
-			</div>
+			<div id="wrapper">
+                <div class="main-card">
+                    <div class="main-card-header">
+                        <h2>Seu saldo</h2>
+                        <span>R$ 50.000,00</span>
+                    </div>
+                    <div class="main-card-hints">
+                        <p>
+                            Aqui será apresentada alguma sugestão de investimento para o Nelson
+                        </p>
+                    </div>
+                    <div class="main-card-action">
+                        <input
+                            class="input-action outline"
+                            type="submit"
+                            value="Próxima dica"
+                        />
+                        <input class="input-action" type="submit" value="Curti!" />
+                    </div>
+                </div>
+            </div>
+			
 			<ul id="action-list">
 				<li class="item-list">
-					<i data-feather="activity"></i>
-					Novo lançamento
+					<i data-feather="download"></i>
+					Acessar Extrato
 				</li>
 				<li class="item-list">
-					<i data-feather="pie-chart"></i>
-					Insights
+					<i data-feather="edit-2"></i>
+					Resitrar uma transação
+				</li>
+				<li class="item-list">
+					<i data-feather="star"></i>
+					Acessar Investimentos
+				</li>
+				<li class="item-list">
+					<i data-feather="sun"></i>
+					Previdência Privada
 				</li>
 			</ul>
 			<footer id="dashboard-footer">
 				<button class="primary" type="button">
 					<i data-feather="plus"></i>
-					Novo lançamento
+					Realizar uma transferência
 				</button>
 			</footer>
 		</div>
