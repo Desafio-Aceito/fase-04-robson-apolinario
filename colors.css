@@ -1,12 +1,13 @@
 :root {
-	--main-background:#E5E5E5;	
-	--main-title: #1C1B1F;
+	--main-background: #E5E5E5;
+	--main-backgroundHover: #FFF;
+	--main-title: #0b0b0b;
 	--main-primary: #6750A4;
-	--main-textColorPrimary: #1C1B1F;
+	--main-textColorPrimary: #0b0b0b;
 	--main-secondary: #E8DEF8;
 	--main-placeholder: #49454F;
 	--main-shadow:
 		'rgb(0 0 0 / 10%) 0px 1px 3px 0px, rgb(0 0 0 / 6%) 0px 1px 2px 0px';
 	--main-fadedShadow: 0px 22px 119px 0px rgba(47, 54, 61, 0.75);
-	
+
 }

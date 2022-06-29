@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 	display: none;
 }
 
-select, input {
+input {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -38,8 +38,7 @@ select, input {
 }
 
 .input-default {
-	background: var(--main-background);
-	opacity: 0.5;
+	background: var(--main-backgroundHover);
 	height: 50px;
 	border: 1px solid var(--main-placeholder);
 	color: var(--main-title);
