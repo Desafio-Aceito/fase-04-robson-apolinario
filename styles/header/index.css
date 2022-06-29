@@ -1,12 +1,13 @@
 #main-header {
-	background: var(--main-background);
-	opacity: 0.5;
+	background: linear-gradient(0deg, rgba(103, 80, 164, 0.08), rgba(103, 80, 164, 0.08)), #FFFBFE;
 	height: 70px;
+	z-index: 10;
 }
 
 #content-header {
-	/* MOBILE */
 	max-width: 900px;
+	z-index: 11;
+
 	height: 100%;
 	margin: 0px auto;
 	display: flex;
@@ -24,10 +25,8 @@
 	color: var(--main-title);
 	font-size: 1.6rem;
 	letter-spacing: 0.01rem;
-	;
 }
 
-/*  DESKTOP */
 @media (min-width: 768px) {
 	#content-header {
 		padding: 0;
