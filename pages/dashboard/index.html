@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://unpkg.com/feather-icons"></script>
+		<link rel="stylesheet" href="../../global.css" />
+		<link rel="stylesheet" href="../../colors.css" />
+		<link rel="stylesheet" href="../../styles/header/index.css" />
+		<link rel="stylesheet" href="../../styles/dashboard/index.css" />
+		<link rel="stylesheet" href="../../styles/card/index.css" />
+		<title>Dashboard</title>
+	</head>
+	<body>
+		<header id="main-header">
+			<div id="content-header">
+				<i data-feather="menu"></i>
+				<h1>Olá, fulano</h1>
+				<i data-feather="user"></i>
+			</div>
+		</header>
+
+		<div id="dashboard">
+			<div id="card-list">
+				<div class="card-item">
+					<div class="card-item-row">
+						<h1>Entradas</h1>
+						<i data-feather="arrow-up-circle"></i>
+					</div>
+					<div class="card-item-column">
+						<strong>R$ 17.000</strong>
+						<span>Último lançamento em 28/06/2022</span>
+					</div>
+				</div>
+				<div class="card-item">
+					<div class="card-item-row">
+						<h1>Saídas</h1>
+						<i data-feather="arrow-down-circle"></i>
+					</div>
+					<div class="card-item-column">
+						<strong>R$ 1.000</strong>
+						<span>Último lançamento em 27/06/2022</span>
+					</div>
+				</div>
+				<div class="card-item" id="total-balance">
+					<div class="card-item-row">
+						<h1>Total</h1>
+						<i data-feather="dollar-sign"></i>
+					</div>
+					<div class="card-item-column">
+						<strong>R$ 16.000</strong>
+						<span>de 01 á 30 de Junho</span>
+					</div>
+				</div>
+			</div>
+			<ul id="action-list">
+				<li class="item-list">
+					<i data-feather="activity"></i>
+					Novo lançamento
+				</li>
+				<li class="item-list">
+					<i data-feather="pie-chart"></i>
+					Insights
+				</li>
+			</ul>
+			<footer id="dashboard-footer">
+				<button class="primary" type="button">
+					<i data-feather="plus"></i>
+					Novo lançamento
+				</button>
+			</footer>
+		</div>
+	</body>
+	<script>
+		feather.replace();
+	</script>
+</html>

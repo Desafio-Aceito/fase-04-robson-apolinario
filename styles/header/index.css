@@ -1,0 +1,34 @@
+#main-header {
+	background: var(--main-backgroundHover);
+	height: 70px;
+}
+
+#content-header {
+	/* MOBILE */
+	max-width: 900px;
+	height: 100%;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 8px;
+}
+
+#content-header>svg {
+	color: var(--main-title);
+	cursor: pointer;
+}
+
+#content-header>h1 {
+	color: var(--main-title);
+	font-size: 1.6rem;
+	letter-spacing: 0.01rem;
+	;
+}
+
+/*  DESKTOP */
+@media (min-width: 768px) {
+	#content-header {
+		padding: 0;
+	}
+}
